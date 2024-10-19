@@ -2,7 +2,7 @@ This is a introductory BOF challenge. 👀
 
 During the lesson, a server's public IP & port will be given, on which this program (`main.c`) runs. 
 
-You may connect to it using the `nc [ip] [port]` command and exploit this on the server. You can also test this on your own computer, but you won't be able to access the flag (as it is stored on the server).
+You may connect to it using the `nc [ip] [port]` command and exploit this on the server. You can also test this on your own computer (compile it with `gcc main.c -o main -std=c99 -fno-stack-protector -z execstack -no-pie`), but you won't be able to access the flag (it is stored on the server).
 
 Exploit the program on the server and get the flag!
 
