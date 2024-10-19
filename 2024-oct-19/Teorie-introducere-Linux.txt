@@ -1,3 +1,6 @@
+man - the General Commands Manual
+Example: man ls shows details about the man command
+
 File and Directory Management:
 ls – List files and directories.
 Example: ls -l lists with detailed info (permissions, ownership, size, and date).
