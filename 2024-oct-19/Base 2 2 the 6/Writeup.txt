@@ -1,0 +1,5 @@
+`Base 2 2 the 6` ne duce cu gandul la base64
+`Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9` contine atat litere mari (26) + litere mici (26) + cifre (10) - minim 62 de caractere
+imediat ne gandim la base64
+comanda `echo 'Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9' | base64 -d` afiseaza rezultatul
+decriptarea poate fi facuta folosind de asemenea surse online
