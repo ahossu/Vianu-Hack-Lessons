@@ -14,7 +14,7 @@ int main() {
         gets(name);    
 
         if(x) {
-            break; // EXIT the
+            break; // EXIT the loop
         } 
 
         // ...
