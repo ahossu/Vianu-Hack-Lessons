@@ -1,0 +1,5 @@
+cat Writeup.txt 
+`Binwalk` - titlul reprezinta chiar o comanda in linux
+-D, --dd=<type[:ext[:cmd]]> Extract <type> signatures (regular expression), give the files an extension of <ext>, and execute <cmd>
+binwalk --dd='.*' PurpleThing.jpeg
+observam ca sunt 2 imagini ascunse in imaginea originala si intr-una dintre ele este ascuns flag-ul
