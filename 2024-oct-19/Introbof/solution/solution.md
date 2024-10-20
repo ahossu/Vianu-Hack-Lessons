@@ -1,6 +1,6 @@
 Notice that the program will read the flag from a file if we somehow manage to break from the `while(1)` loop.
 
-We also notice that if `x!=0`, the code will the "infinite" loop:
+We also notice that if `x!=0`, the code will exit the "infinite" loop:
 
 ```C
 int main() {
