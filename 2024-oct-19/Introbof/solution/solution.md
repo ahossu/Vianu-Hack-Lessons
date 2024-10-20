@@ -46,7 +46,7 @@ main.c:(.text+0x5e): warning: the `gets' function is dangerous and should not be
 
 So the `gets()` function is considered dangerous. What does that mean?
 
-If we search the internet, we find out that `gets` is unsafe since it doesn't check the input length when saving it to a buffer. In other words, it can copy, say, a 100 character long string in a 35 bytes array (100 and 35 are arbitrary number, anything similar proves the point). This is also known as a **Buffer Overflow**, since the remaining `100-35=65 bytes` override other variables in our program's memory, including `x`.
+If we search the internet, we find out that `gets` is unsafe since it doesn't check the input length when saving it to a buffer. In other words, it can copy, say, a 100 character long string in a 32 bytes array (100 and 32 are arbitrary number, anything similar proves the point). This is also known as a **Buffer Overflow**, since the remaining `100-32=68 bytes` override other variables in our program's memory, including `x`.
 
 So, if we provide a string long enough to override x (but short enough to not override other important variables that will crash the program), we'll successfully retrieve the flag:
 
