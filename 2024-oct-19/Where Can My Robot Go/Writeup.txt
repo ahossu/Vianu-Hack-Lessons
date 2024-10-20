@@ -1,0 +1,7 @@
+Fisierul robots.txt este un standard utilizat de site-uri pentru a comunica cu crawleri si boti. Acesta ofera instructiuni despre ce parti ale site-ului nu ar trebui accesate sau indexate de motoarele de cautare. Structura tipica a unui fisier robots.txt include:
+User-agent: Acesta specifica crawler-ul web caruia ii sunt adresate regulile. Wildcard-ul * indica ca regulile se aplica tuturor crawler-elor.
+Disallow: Acesta specifica caile care nu ar trebui accesate de agentii specificati.
+
+De exemplu, fisierul robots.txt pentru CTFlearn poate fi accesat la urmatoarea adresa URL: https://ctflearn.com/robots.txt.
+Dupa ce am revizuit continutul fisierului robots.txt, am gasit urmatoarea informatie: User-agent: * Disallow: /70r3hnanldfspufdsoifnlds.html
+Aceasta intrare indica faptul ca toti crawleri web sunt instruiti sa nu indexeze sau sa acceseze pagina situata la /70r3hnanldfspufdsoifnlds.html. In ciuda instructiunilor din fisierul robots.txt, este adesea posibil sa accesezi direct paginile interzise, daca ai URL-ul. In acest caz, putem incerca sa vizitam urmatoarea adresa URL: https://ctflearn.com/70r3hnanldfspufdsoifnlds.html, unde gasim flag-ul.
