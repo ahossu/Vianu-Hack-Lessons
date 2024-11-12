@@ -1,4 +1,3 @@
-cat Writeup.txt 
 `Binwalk` - titlul reprezinta chiar o comanda in linux
 -D, --dd=<type[:ext[:cmd]]> Extract <type> signatures (regular expression), give the files an extension of <ext>, and execute <cmd>
 binwalk --dd='.*' PurpleThing.jpeg
