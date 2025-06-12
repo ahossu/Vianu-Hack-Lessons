@@ -1,39 +1,69 @@
-### Cyber Security Club - 'Tudor Vianu' High School in Bucharest, Romania
+# Cybersecurity Club  
+**Tudor Vianu National College of Informatics, Bucharest, Romania**  
+**Academic Year 2024 – 2025**
 
-#### 2024 - 2025 Edition
+---
 
-The club aims to introduce students to the field of Cybersecurity, an increasingly important domain in the digital era. With the rise of global cyber threats, cybersecurity has become a priority for governments and organizations, and many universities now offer bachelor’s or master’s programs in this field.
+## 1. Overview  
+The Cybersecurity Club is dedicated to developing the next generation of cyber defenders through a structured program of theory, practice, and collaboration. Members will gain proficiency in network security, cryptography, vulnerability assessment, and secure coding, while cultivating critical thinking and teamwork skills essential for addressing real-world cyber threats.
 
-## **Leadership of the Cybersecurity Club**
+---
 
-- **Co-founders**:
-  - `Alexandru Hossu`
-  - `Laura Moldovan`
-  - `Dorothea Pațachia Sultănoiu`
-  - `Mihai Matei Coman`
+## 2. Leadership  
 
-- **Mentors**:
-  - `Alexandru Hossu`
-  - `Laura Moldovan`
-  - `Dorothea Pațachia Sultănoiu`
-  - `Mihai Matei Coman`
+### Co-Founders & Mentors  
+- **Alexandru Hossu**  
+- **Laura Moldovan**  
+- **Dorothea Pațachia Sultănoiu**  
+- **Mihai Matei Coman**  
 
-## **Coordinators**
-
+### Coordinators  
 - **Prof. Victor Manz**  
+  – Department of Computer Science and Computing, Tudor Vianu National College  
 - **Matteo Verzotti**  
-  - Student at the University of Bucharest, Faculty of Mathematics and Computer Science  
-  - CNITV graduate  
+  – BSc in Mathematics & Computer Science, University of Bucharest  
+  – CNITV Alumnus  
 - **Cristian Dincă**  
-  - Student at the National University of Science and Technology Politehnica Bucharest, Faculty of Automation and Computers  
-  - CNITV graduate  
+  – BSc in Automation & Computer Science, Politehnica University of Bucharest  
+  – CNITV Alumnus  
 
-## **Contact**
+---
 
-- **Department of Computer Science and Computing of C.S.E. National College of Informatics "Tudor Vianu"**  
-  - Address: Str. Arh. Ion Mincu, Nr. 10, Sect. 1, Bucharest 011358  
-  - Phone: 0757011105  
+## 3. Key Activities  
 
-- **Social Media**:
-  - Instagram: [@vianu.hack](https://instagram.com/vianu.hack)
-  - Email: vianu.hack.club@lbi.ro, vianu.hack.club@gmail.com
+1. **Weekly Workshops**  
+   - In-depth sessions on topics such as intrusion detection, ethical hacking, secure software development, and cryptanalysis.  
+2. **CTF Competitions**  
+   - Regular Capture The Flag challenges hosted on our custom platform to hone practical skills.  
+3. **Guest Lectures & Panels**  
+   - Talks by industry professionals and academic experts covering emerging threats, career pathways, and research advances.  
+4. **Team Projects**  
+   - Collaborative exercises simulating real-world scenarios (e.g., incident response drills, vulnerability assessments).  
+
+---
+
+## 4. Capture The Flag (CTF) Platform  
+Explore, practice, and track your progress at our dedicated CTF site:  
+🔗 [vianuhack.club](https://vianuhack.club)
+
+---
+
+## 5. Membership & Participation  
+- **Who Can Join:** All students with an interest in cybersecurity, regardless of prior experience.  
+- **How to Enroll:** Complete the membership form available in the Computer Science department or via email request.  
+- **Commitment:** Attend at least two workshops or events per month to remain an active member.
+
+---
+
+## 6. Contact Information  
+
+**Department of Computer Science and Computing**  
+Tudor Vianu National College of Informatics  
+Str. Arhitect Ion Mincu 10, Sector 1, Bucharest 011358, Romania  
+📞 +40 75 701 1105  
+
+**Email:**  
+- vianuhack.club@lbi.ro  
+- vianuhack.club@gmail.com  
+
+**Instagram:** [@vianu.hack](https://instagram.com/vianu.hack) 
